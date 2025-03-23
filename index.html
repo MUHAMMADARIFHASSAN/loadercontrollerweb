@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" tabindex="-1"></canvas>
+      <canvas id="unity-canvas"  tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -52,12 +52,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/LoaderBuildUIadded.loader.js";
+      var loaderUrl = buildUrl + "/LoaderBuildUI.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/LoaderBuildUIadded.data",
-        frameworkUrl: buildUrl + "/LoaderBuildUIadded.framework.js",
-        codeUrl: buildUrl + "/LoaderBuildUIadded.wasm",
+        dataUrl: buildUrl + "/LoaderBuildUI.data",
+        frameworkUrl: buildUrl + "/LoaderBuildUI.framework.js",
+        codeUrl: buildUrl + "/LoaderBuildUI.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Myproject",
